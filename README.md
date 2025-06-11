@@ -17,3 +17,12 @@ git clone https://github.com/oriionn/clock.git
 cd clock
 cargo build --release
 ```
+
+## My window rule on Hyprland
+To make like a "picture in picture" mod
+```
+# Clock
+windowrulev2 = float, class:clock
+windowrulev2 = pin, class:clock
+windowrulev2 = size 600 450, class:clock
+```
